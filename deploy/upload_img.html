@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>图片上传</title>
+</head>
+<body>
+    <!-- 要将父布局的position设置为relative，父布局将无法包裹input -->
+    <div style="position: relative;">
+        <!--设置input的position为absolute，使其不按文档流排版，并设置其包裹整个布局 -->
+        <!-- 设置opactity为0，使input变透明 -->
+        <!-- 只接受jpg，gif和png格式 -->
+
+        <!-- 自定义按钮效果 -->
+        <div style="text-align: top">
+            <span style="font-size: 12px;">上传文件：</span>
+            <img id="upload" src="./upload.png" />
+        </div>
+    </div>
+</body>
+</html>
